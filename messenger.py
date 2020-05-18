@@ -4,7 +4,7 @@ from csv import reader
 from random import randint 
 from sys import exit
 
-pyautogui.FAILSAFE = True
+pyautogui.FAILSAFE = True # move mouse to corner of the screen to stop script
 
 results = []
 with open("tumbzilla_labels.csv", encoding="utf8") as csvfile:
